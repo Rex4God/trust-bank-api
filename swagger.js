@@ -14,7 +14,7 @@ const options = {
     },
     servers: [
       {
-        url: `http://localhost:${port}`,
+        url: `https://trust-bank-service.onrender.com/:${port}`,
       },
     ],
   },
