@@ -2,7 +2,7 @@
 const swaggerJsdoc = require("swagger-jsdoc");
 require("dotenv").config();
 
-const port = process.env.PORT || 9000;
+//const port = process.env.PORT || 9000;
 
 const options = {
   swaggerDefinition: {
@@ -14,7 +14,7 @@ const options = {
     },
     servers: [
       {
-        url: `https://trust-bank-service.onrender.com/:${port}`,
+        url: "https://trust-bank-service.onrender.com/",
       },
     ],
   },
