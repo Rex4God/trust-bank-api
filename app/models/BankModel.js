@@ -8,6 +8,7 @@ const {ACCOUNT_TYPE} = require("../utils/constants")
 const schema = new mongoose.Schema({
           accountName:{
             type: String,
+            unique: true,
             required:  true
           },
           Dob:{
